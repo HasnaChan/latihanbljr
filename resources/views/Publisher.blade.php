@@ -14,8 +14,6 @@
             <div class="card-body">
             <h5 class="card-title">{{$publisher->name}}</h5>
             <p class="card-text">Address: {{$publisher->address}}</p>
-            <p class="card-text">Phone: {{$publisher->phone}}</p>
-            <p class="card-text">Email: {{$publisher->email}}</p>
             <a href="/publisherdetail/{{ $publisher->id }}" class="btn btn-primary">Detail</a>
             </div>
         </div>
